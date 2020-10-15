@@ -1,23 +1,23 @@
 lista = [input() for _ in range(3)]
-if 'invertebrado' in str(lista):
-   if 'inseto' in str(lista):
-      if 'hematofago' in str(lista):
+if 'invertebrado' in lista:
+   if 'inseto' in lista:
+      if 'hematofago' in lista:
           print('pulga')
-      elif 'herbivoro' in str(lista):
+      else:
           print('lagarta')
-   elif 'anelideo' in str(lista):
-      if 'hematofago' in str(lista):
+   else:
+      if 'hematofago' in lista:
           print('sanguessuga')
-      elif 'onivoro' in str(lista):
+      else:
           print('minhoca')
-elif 'vertebrado' in str(lista):
-   if 'ave' in str(lista):
-      if 'carnivoro' in str(lista):
+else:
+   if 'ave' in lista:
+      if 'carnivoro' in lista:
           print('aguia')
-      elif 'onivoro' in str(lista):
+      else:
           print('pomba')
-   elif 'mamifero' in str(lista):
-      if 'onivoro' in str(lista):
+   else:
+      if 'onivoro' in lista:
           print('homem')
-      elif 'herbivoro' in str(lista):
+      else:
           print('vaca')

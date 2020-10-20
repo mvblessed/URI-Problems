@@ -4,3 +4,6 @@ print(notas)
 for i in range(7):
     nota, notas = divmod(notas, valores[i])
     print('%d nota(s) de R$ %d,00' %(nota, valores[i]))
+
+
+for i in range()

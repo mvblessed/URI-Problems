@@ -13,6 +13,6 @@ def factorial(N):
     
 def newBin(N, K):
     return factorial(N) / (factorial(N - K) * factorial(K))
-    
+
 
 main(N)

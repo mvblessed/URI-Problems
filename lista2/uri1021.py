@@ -34,39 +34,3 @@ print(f'{mCinc} moedas(s) de R$ 5,00')
 print(f'{mDois} moedas(s) de R$ 2,00')
 
  
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    

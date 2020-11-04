@@ -13,7 +13,7 @@ def main(n):
 def factorial(n):
     return 1 if n < 2 else n * factorial(n - 1)
     
-# Bionomial number function
+# Bionomial number functionfs
 def biNum(n, k):
     return factorial(n) / (factorial(n - k) * factorial(k))
 

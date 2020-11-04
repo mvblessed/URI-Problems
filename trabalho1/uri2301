@@ -1,0 +1,27 @@
+t = 0
+while (True):
+    t = t+1
+    P, R = input().split()
+    P = int(P)
+    R = int(R)
+    if P == 0 and R == 0:
+        break
+    ordem = input().split()
+    for i in range(0, len(ordem)):
+        ordem[i] = int(ordem[i])
+    for i in range(1, R+1):
+        informacoes = input().split()
+        jogadores = informacoes[0]
+        jogadores = int(jogadores)
+        chefe = informacoes[1]
+        chefe = int(chefe)
+        jogadas = informacoes[2:jogadores+2]
+        nova_ordem = []
+        for i in range(0, jogadores):
+            jogadas[i] = int(jogadas[i])
+            if (jogadas[i] == chefe):
+                nova_ordem.append(ordem[i])
+        ordem = nova_ordem
+    print("Teste", t)
+    print(ordem[0])
+    print()

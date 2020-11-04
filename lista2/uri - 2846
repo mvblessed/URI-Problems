@@ -1,0 +1,28 @@
+def fib(n):
+    if (n == 1 or n == 2):
+        return False
+    anterior = 1
+    atual = 2
+    termo = 0
+    checagem = True
+    while True:
+        termo = anterior + atual
+        anterior = atual
+        atual = termo
+        if n == termo:
+            checagem = False
+            break
+        elif n < termo:
+            break
+    return checagem
+x = int(input())
+cont = 0
+continuar = True
+i = 4
+while continuar:
+    if fib(i):
+        cont += 1
+        if x == cont:
+            print(i)
+            continuar = not continuar
+    i += 1

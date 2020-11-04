@@ -1,8 +1,4 @@
 # Par ou Ímpar
-
-count1 = 0
-count2 = 0
-
 gameNum = 1
 
 while True:

@@ -1,0 +1,17 @@
+teste = 1
+while True:
+    entrada = input().split()
+    caidos = 0
+    x1, y1, x2, y2 = int(entrada[0]), int(entrada[1]), int(entrada[2]), int(entrada[3])
+    if x1 == x2 == y1 == y2 == 0:
+        break
+    q_met = int(input())
+    for v in range(q_met):
+        meteoro = input().split()
+        x_met, y_met = int(meteoro[0]), int(meteoro[1])
+        if x1 <= x_met <= x2:
+            if y2 <= y_met <= y1:
+                caidos += 1
+    print('Teste {}'.format(teste))
+    print('{}'.format(caidos))
+    teste += 1
